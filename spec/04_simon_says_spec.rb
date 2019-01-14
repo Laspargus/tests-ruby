@@ -11,6 +11,8 @@ describe "Simon says" do
     end
   end
 
+
+
   describe "shout" do
     it "should shout hello" do
       expect(shout("hello")).to eq("HELLO")
@@ -20,6 +22,9 @@ describe "Simon says" do
       expect(shout("hello world")).to eq("HELLO WORLD")
     end
   end
+
+
+
 
   describe "repeat" do
     it "should repeat" do
@@ -34,6 +39,10 @@ describe "Simon says" do
       expect(repeat("hello", 3)).to eq("hello hello hello")
     end
   end
+
+
+
+
 
   describe "start_of_word" do
     it "returns the first letter" do
@@ -52,6 +61,10 @@ describe "Simon says" do
     end
   end
 
+
+
+
+
   describe "first_word" do
     it "tells us the first word of 'Hello World' is 'Hello'" do
       expect(first_word("Hello World")).to eq("Hello")
@@ -62,6 +75,8 @@ describe "Simon says" do
     end
   end
 
+
+  
   describe "titleize" do
     it "capitalizes a word" do
       expect(titleize("jaws")).to eq("Jaws")
